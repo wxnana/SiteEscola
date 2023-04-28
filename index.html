@@ -6,20 +6,116 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
 </head>
+
 <body>
     <header class="cabecalho">
-        <img class="cabecalho-imagem" src="file:///home/escola/Downloads/alurastart%20logo%201.png" alt="logo da alura start" alt="logo da alura start">
+        <img src="./img/alurastart logo 1.png" alt="logo da alura start">
         <ul class="cabecalho-lista-item">
             <li class="cabecalho-lista-item">Estudante</li>
             <li class="cabecalho-lista-item">Escola</li>
         </ul>
     </header>
-    <section class="escola">
-        <h2 class="escola-titulo">Sobre a Escola</h2>
-        <p class="escola-texto-um"></p>
-        <p class="escola-texto-dois"></p>
 
+    <section class="escola">
+        <div class="escola-conteudo">
+            <h2 class="escola-titulo">Sobre a Escola</h2>
+            <p class="escola-texto-um">
+                A escola Alura foi fundada em 2010 com o objetivo de ensinar Pensamento Computacional através da Programação.
+            </p>
+            <p class="escola-texto-dois">
+                A turma mais famosa é a Segunda Série A. Uma turma diversa e engajada, as vezes, um pouco bagunceira, mas que entrega excelentes resultados!
+            </p>
+        </div>
+        <img class="escola-imagem" src="./img/Formula-bro.png" alt="professora no quadro">
     </section>
+
+    <section class="estudante">
+        <h2 class="estudante-titulo">Quem são nosso estudantes?</h2>
+        
+        <div class="estudante-todos">
+            <span></span>
+            <div class="estudante-div">
+                <img class="estudante-imagem" src="data:image/jpeg;base64,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" alt="foto do estudante Marcelo">
+                <h3 class="estudante-nome">Vitória</h3>
+                <a href="https://www.instagram.com/" target="_blank"><img class="estudante-icone" src="./img/instagram.png" alt="Instagram"></a>
+                <img class="estudante-icone" src="./img/github.png" alt="Github">
+                <img class="estudante-icone" src="./img/linkedin.png" alt="LinkedIn">
+            </div>
+
+            <div class="estudante-div">
+                <img class="estudante-imagem" src="https://vejasp.abril.com.br/wp-content/uploads/2016/11/4782_gui-vieira-como-binho.jpeg?quality=70&strip=info&w=409&w=636" alt="foto do estudante Marcelo">
+                <h3 class="estudante-nome">Diego</h3>
+                <img class="estudante-icone" src="./img/instagram.png" alt="Instagram">
+                <img class="estudante-icone" src="./img/github.png" alt="Github">
+                <img class="estudante-icone" src="./img/linkedin.png" alt="LinkedIn">
+            </div>
+
+            <div class="estudante-div">
+                <img class="estudante-imagem" src="https://i.pinimg.com/originals/6f/08/51/6f0851c7a9c1aa28f9ce676d415e09d1.jpg" alt="foto do estudante Marcelo">
+                <h3 class="estudante-nome">Tatiane</h3>
+                <img class="estudante-icone" src="./img/instagram.png" alt="Instagram">
+                <img class="estudante-icone" src="./img/github.png" alt="Github">
+                <img class="estudante-icone" src="./img/linkedin.png" alt="LinkedIn">
+            </div>
+
+            <span></span>
+            <div class="estudante-div">
+                <img class="estudante-imagem" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgzy2fff3WdVfHvTG4KxzbPxYuW_8DlcZvsw&usqp=CAU" alt="foto do estudante Marcelo">
+                <h3 class="estudante-nome">Bianca</h3>
+                <img class="estudante-icone" src="./img/instagram.png" alt="Instagram">
+                <img class="estudante-icone" src="./img/github.png" alt="Github">
+                <img class="estudante-icone" src="./img/linkedin.png" alt="LinkedIn">
+            </div>
+
+            <div class="estudante-div">
+                <img class="estudante-imagem" src="https://conteudo.imguol.com.br/c/parceiros/3e/2020/07/17/mili-descobre-que-mosca-e-seus-amigos-estao-vivendo-no-orfanato-1594999836972_v2_3x4.jpg" alt="foto do estudante Marcelo">
+                <h3 class="estudante-nome">Milena</h3>
+                <img class="estudante-icone" src="./img/instagram.png" alt="Instagram">
+                <img class="estudante-icone" src="./img/github.png" alt="Github">
+                <img class="estudante-icone" src="./img/linkedin.png" alt="LinkedIn">
+            </div>
+
+            <div class="estudante-div">
+                <img class="estudante-imagem" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRN-bsFDKfrmREFqB1flfg5UpqjR8KNW5EDgTOlO-Grcf3Qus-WvSwmtTmoRujDilgzdVo&usqp=CAU" alt="foto do estudante Marcelo">
+                <h3 class="estudante-nome">Marcelo</h3>
+                <img class="estudante-icone" src="./img/instagram.png" alt="Instagram">
+                <img class="estudante-icone" src="./img/github.png" alt="Github">
+                <img class="estudante-icone" src="./img/linkedin.png" alt="LinkedIn">
+            </div>
+
+            <span></span>
+            <div class="estudante-div">
+                <img class="estudante-imagem" src="https://static.wikia.nocookie.net/chiquititas2013/images/c/cd/Pata.jpg/revision/latest?cb=20130608151720&path-prefix=pt-br" alt="foto do estudante Marcelo">
+                <h3 class="estudante-nome">Patricia</h3>
+                <img class="estudante-icone" src="./img/instagram.png" alt="Instagram">
+                <img class="estudante-icone" src="./img/github.png" alt="Github">
+                <img class="estudante-icone" src="./img/linkedin.png" alt="LinkedIn">
+            </div>
+
+            <div class="estudante-div">
+                <img class="estudante-imagem" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4nafu04XHsmFjHIEPAAgMRSYY2iFT7SQS77tgl5wTxS65zUk-01cg_bYty6StVioULyU&usqp=CAU" alt="foto do estudante Marcelo">
+                <h3 class="estudante-nome">Ana</h3>
+                <img class="estudante-icone" src="./img/instagram.png" alt="Instagram">
+                <img class="estudante-icone" src="./img/github.png" alt="Github">
+                <img class="estudante-icone" src="./img/linkedin.png" alt="LinkedIn">
+            </div>
+
+            <div class="estudante-div">
+                <img class="estudante-imagem" src="https://vejasp.abril.com.br/wp-content/uploads/2016/11/4777_rayssa-chaddad-como-bia.jpeg?quality=70&strip=info&w=409" alt="foto do estudante Marcelo">
+                <h3 class="estudante-nome">Julia</h3>
+                <img class="estudante-icone" src="./img/instagram.png" alt="Instagram">
+                <img class="estudante-icone" src="./img/github.png" alt="Github">
+                <img class="estudante-icone" src="./img/linkedin.png" alt="LinkedIn">
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <img src="./img/alurastart logo 1.png" alt="logo da alura start">
+    </footer>
 </body>
 </html>
