@@ -9,7 +9,7 @@ body{
 
 
 .cabecalho {
-    background-color: #383D58;
+    background-color: #dd9b1f;
     color: white;
     display: flex;
     justify-content: space-around;
@@ -17,7 +17,7 @@ body{
 }
 
 .cabecalho-image{
-    width: 20%;
+    width: 10%;
 }
 
 .cabecalho-lista-item{
@@ -28,11 +28,11 @@ body{
 }
 
 .escola-imagem{
-    width: 25%;
+    width: 20%;
 }
 
 .escola{
-    background-image: linear-gradient(#383D58, #00c0eb);
+    background-image: linear-gradient(#e2a22a, #fcd182);
     color: white;
     display: flex;
     justify-content: center;
@@ -74,4 +74,8 @@ footer{
     background-color: black;
     padding: 15px 0;
     text-align: center;
+}
+
+.rodape-imagem{
+    width: 20%;
 }
